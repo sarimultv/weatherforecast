@@ -1,13 +1,14 @@
-import React from 'react';
-import MapJS from './Components/Map'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import MapJS from "./Components/Map";
 
-const App =()=> {
+import Navbar from "./Components/Navbar";
+
+const App = () => {
   return (
     <>
-    <MapJS />
+      <Navbar />
+      <MapJS />
     </>
   );
-}
+};
 
 export default App;
